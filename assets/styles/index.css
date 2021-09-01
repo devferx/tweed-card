@@ -121,13 +121,23 @@ body {
   width: 48px;
   height: 48px;
   border: none;
-  background: transparent;
+  background: url("../images/heart.png");
+  background-size: 1450px 48px;
   cursor: pointer;
 }
 
-.heart-button img {
-  width: 48px;
-  height: 48px;
+.heart-button.is-liked {
+  animation: like steps(28) 0.8s forwards;
+}
+
+@keyframes like {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: right;
+  }
 }
 
 @media screen and (max-width: 520px) {
