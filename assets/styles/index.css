@@ -1,0 +1,21 @@
+:root {
+  --white: #ffffff;
+  --bg: #000000;
+  --blue: #2797dd;
+  --grey: #6e767d;
+  --pink: #f72381;
+  --body1-regular: 400 1rem/1.75rem Poppins;
+  --body1-bold: 700 1rem/1.75rem Poppins;
+  --body2-bold: 700 0.75rem/1.5rem Poppins;
+  --body2-regular: 400 0.75rem/1.375rem Poppins;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bg);
+}
