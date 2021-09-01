@@ -1,11 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tweed Card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/styles/index.css" />
   </head>
-  <body></body>
+  <body>
+    <section class="container">
+      <article class="tweet">
+        <img
+          class="tweet__avatar"
+          src="./assets/images/avatar.png"
+          alt="Leonidas Esteban Photo"
+        />
+
+        <div class="tweet__content">
+          <div class="tweet__content__header">
+            <p class="tweet__content__header__name">
+              LeonidasEsteban.css
+              <span class="tweet__content__header__name__info">
+                @LeonidasEsteban·2h
+              </span>
+            </p>
+            <p class="tweet__content__desc">
+              Los retos de esta semana de /Proyectos son totalmente gratis, crea
+              una sección de pricing y una galería de fotos
+              <a
+                href="https://leonidasesteban.com/proyectos/cards-precios"
+                target="_blank"
+                >https://leonidasesteban.com/proyectos/cards-precios</a
+              >
+              <a
+                href="https://leonidasesteban.com/proyectos/grid-gallery"
+                target="_blank"
+                >https://leonidasesteban.com/proyectos/grid-gallery</a
+              >
+              estos los puedes hacer en 100% solo con HTML y CSS
+            </p>
+          </div>
+
+          <a
+            class="tweet__content__preview"
+            href="https://leonidasesteban.com/proyectos/grid-gallery"
+            target="_blank"
+          >
+            <img src="./assets/images/grid-galery.png" alt="Grid Gallery" />
+
+            <div class="tweet__content__preview__info">
+              <p class="tweet__content__preview__info__title">Grig Gallery</p>
+              <p class="tweet__content__preview__info__desc">
+                Practica tus habilidades de Grid CSS con este ejercicio de las
+                capitales del mundo
+              </p>
+            </div>
+          </a>
+
+          <div class="tweet__content__heart">
+            <button class="heart-button">
+              <img src="./assets/images/heart.svg" alt="Heart Icon" />
+            </button>
+            <p>250</p>
+          </div>
+        </div>
+      </article>
+    </section>
+  </body>
 </html>
